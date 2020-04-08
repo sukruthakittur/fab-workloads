@@ -9,6 +9,6 @@ hooks:
 subcomponents:
   - name: "istio-operator"
     type: helm
-    source: "https://github.com/sukruthakittur"
+    source: "https://github.com/sukruthakittur/istio-1.5.1"
     method: "git"
-    path: "istio-1.5.1"
+    path: "install/kubernetes/operator/operator-chart/"
