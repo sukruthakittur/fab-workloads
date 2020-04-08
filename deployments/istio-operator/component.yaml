@@ -1,0 +1,14 @@
+name: istio-operator
+type: static
+path: "./manifests"
+hooks:
+  before-install:
+    - echo 'installing istio-operator'
+  after-install:
+    - echo 'installed istio-operator'
+subcomponents:
+  - name: "istio-operator"
+    type: helm
+    source: "https://github.com/sukruthakittur"
+    method: "git"
+    path: "istio-1.5.1"

@@ -1,0 +1,4 @@
+name: deployments
+subcomponents:
+  - name: istio-operator
+    source: "./istio-operator"

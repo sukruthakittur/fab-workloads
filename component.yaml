@@ -1,0 +1,4 @@
+name: flux-deployments
+subcomponents:
+  - name: deployments
+    source: "./deployments"
