@@ -1,0 +1,7 @@
+subcomponents:
+  istio-operator:
+    config:
+      hub: docker.io/istio
+      tag: 1.5.1
+      operatorNamespace: istio-operator
+      istioNamespace: istio-system

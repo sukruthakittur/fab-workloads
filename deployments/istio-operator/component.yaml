@@ -7,7 +7,7 @@ hooks:
   after-install:
     - echo 'installed istio-operator'
 subcomponents:
-  - name: "istio-operator"
+  - name: istio-operator
     type: helm
     source: "https://github.com/sukruthakittur/istio-1.5.1"
     method: "git"
